@@ -1,0 +1,13 @@
+# Node.js
+node_modules/
+*.log
+
+# Build artifacts
+/dist/
+/build/
+
+# IDE
+/.idea/
+/*.sublime-workspace
+/*.sublime-project
+/.vscode/
