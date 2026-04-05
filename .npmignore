@@ -1,0 +1,20 @@
+node_modules/
+src/
+tests/
+docs/
+.github/
+vite.config.js
+tsconfig.json
+.eslintrc
+.prettierrc
+README.md
+CHANGELOG.md
+CONTRIBUTING.md
+coverage/
+.idea/
+.vscode/
+.DS_Store
+CI/CD files/
+demo/
+examples/
+*.lock
