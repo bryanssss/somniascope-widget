@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somniascope Widget Demo</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .widget-container {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            margin-top: 20px;
+        }
+        .floating-widget {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 300px;
+        }
+        .inline-widget {
+            display: block;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Somniascope Widget Demo</h1>
+    <p>This page demonstrates inline and floating widget examples with configuration options.</p>
+
+    <div class="widget-container inline-widget">
+        <h2>Inline Widget Example</h2>
+        <p>This widget is displayed inline with the content.</p>
+        <div id="inline-widget"></div>
+    </div>
+
+    <div class="widget-container floating-widget">
+        <h2>Floating Widget Example</h2>
+        <p>This widget is displayed as a floating element.</p>
+        <div id="floating-widget"></div>
+    </div>
+
+    <script>
+        // Example configuration for inline widget
+        const inlineWidgetConfig = {
+            type: 'inline',
+            content: 'This is the inline widget content.'
+        };
+
+        // Example configuration for floating widget
+        const floatingWidgetConfig = {
+            type: 'floating',
+            content: 'This is the floating widget content.'
+        };
+
+        // Initialize widgets (replace with actual widget initialization code)
+        document.getElementById('inline-widget').innerText = inlineWidgetConfig.content;
+        document.getElementById('floating-widget').innerText = floatingWidgetConfig.content;
+    </script>
+</body>
+</html>
